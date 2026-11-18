@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Food Zone</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Cart.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h2>Food Zone 🍽️</h2>
+
+        <nav id="navbar">
+            <a href="./index.html">Home Page</a>
+            <a href="./FoodPage.html">Food</a>
+            <a href="./Cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <!-- Cart Header -->
+    <section class="cartHeader">
+        <h2>Your Cart Items</h2>
+    </section>
+
+    <!-- Cart Items -->
+    <section id="foodItems" class="food-items">
+        <!-- Cart items will be displayed here using JavaScript -->
+    </section>
+
+    <!-- Cart Summary -->
+    <section class="cartSummary">
+        <h2 id="Total">Total : ₹0</h2>
+
+        <button id="clearBtn" onclick="clearCart()">Clear</button>
+        <button id="checkoutBtn" onclick="checkout()">Checkout</button>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="./Cart.js"></script>
+
+</body>
+
+</html>
